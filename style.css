@@ -1,0 +1,104 @@
+body{
+    place-items: center;
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    
+}
+.sect{
+    display: flex;
+    margin: 30px 30px;
+   height: 500px;
+    width: 50%;
+    
+    
+
+}
+
+.sedan{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+background-color: hsl(31, 77%, 52%);
+
+}
+.suvs{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 40px;
+background-color: hsl(179, 100%, 13%);
+}
+#car-name{margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    
+}
+#desc{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', 'sans-serif';
+    font-weight: 400;
+}
+button{
+    border-color: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Lexend Deca', 'sans-serif';
+    position: relative;
+    top: 60px;
+    border-radius: 22px;
+    width: 180px;
+    padding: 12px;
+    background: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%) ;
+}
+.btn-lux{
+    color: hsl(179, 100%, 13%);
+
+}
+.btn-suv{
+    color: hsl(184, 100%, 22%);
+}
+
+.car-logo{
+    width: 80px;
+    height: 50px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+
+@media only screen and (max-width: 605px) {
+    .sect{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    button{
+        position: relative;
+        top: 20px;
+        left: 0px;
+        width: 150px;
+        font-size: 15px;
+        padding: 8px;
+    }
+    .desc{
+        
+        font-size: 15px;
+    }
+  }
